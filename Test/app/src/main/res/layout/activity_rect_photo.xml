@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BestWish"
+        tools:context=".RectPhoto" 
+        android:layout_alignParentTop="true"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_centerInParent="true"
+        >
+
+        <SurfaceView
+            android:id="@+id/previewSV"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        
+        <com.example.test.DrawImageView
+             android:id="@+id/drawIV"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+            />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/photoImgBtn"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:background="@drawable/camera_icon"
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true"/>
+    
+    <Button
+        android:id ="@+id/focusDown"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_toLeftOf="@id/photoImgBtn"
+        android:layout_alignParentBottom="true"
+        android:text="-"/>
+    
+     <Button
+        android:id ="@+id/focusUp"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_toRightOf="@id/photoImgBtn"
+        android:layout_alignParentBottom="true"
+        android:text="+"/>
+</RelativeLayout>

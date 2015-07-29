@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Svalue</string>
+    <string name="BestWish">数字家庭 摄像头部分截取测试</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_rect_photo">RectPhoto</string>
+    <string name="main">S</string>
+    <string name="title_activity_input_data">InputData</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_pic">SelectPicActivity</string>
+    <string name="title_activity_display_pic">DisplayPic</string>
+
+</resources>

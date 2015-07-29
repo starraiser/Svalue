@@ -1,0 +1,54 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:background="@drawable/background">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:paddingBottom="20px"
+        android:paddingTop="20px"
+        android:paddingRight="20px"
+        android:paddingLeft="20px">
+        <ImageButton
+            android:id="@+id/image1"
+            android:background="@drawable/pic1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:paddingBottom="20px"
+        android:paddingTop="20px"
+        android:paddingRight="20px"
+        android:paddingLeft="20px">
+        <ImageButton
+            android:id="@+id/image2"
+            android:background="@drawable/pic2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:paddingBottom="20px"
+        android:paddingTop="20px"
+        android:paddingRight="20px"
+        android:paddingLeft="20px">
+        <ImageButton
+            android:id="@+id/image3"
+            android:background="@drawable/pic3"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+
+            />
+    </TableRow>
+</TableLayout>

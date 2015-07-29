@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/tableLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3"
+    >
+    <!-- 第一行 -->
+    <TableRow android:id="@+id/inputrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView/>
+        <TextView android:text="身高："
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:textSize="24px"
+            android:layout_height="wrap_content"
+            />
+        <EditText android:id="@+id/height"
+            android:textSize="24px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:minWidth="200px"/>
+        <TextView />
+    </TableRow>
+    <!-- 第二行 -->
+    <TableRow android:id="@+id/inputrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView/>
+        <TextView android:text="胸围："
+            android:id="@+id/textView2"
+            android:textSize="24px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/Bvalue"
+            android:textSize="24px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:minWidth="200px"/>
+        <TextView />
+    </TableRow>
+    <!-- 第3行 -->
+    <TableRow android:id="@+id/inputrow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView/>
+        <TextView android:text="腰围："
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:textSize="24px"
+            android:layout_height="wrap_content"
+            />
+        <EditText android:id="@+id/Wvalue"
+            android:textSize="24px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:minWidth="200px"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:id="@+id/inputrow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView/>
+        <TextView android:text="臀围："
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:textSize="24px"
+            android:layout_height="wrap_content"
+            />
+        <EditText android:id="@+id/Hvalue"
+            android:textSize="24px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:minWidth="200px"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+        <Button
+            android:id="@+id/upload"
+            android:text="确定"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/clear"
+            android:text="清除"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView />
+    </TableRow>
+</TableLayout>
+
